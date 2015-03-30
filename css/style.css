@@ -1,7 +1,3 @@
-
-/*= GENERAL STYLING
---------------------------------------------------------*/
-
 body{
 	margin: 0;
 	padding: 0;
@@ -9,7 +5,7 @@ body{
 }
 
 h1 { 
-    font-family:"Arvo";
+    font-family:"Wellfleet";
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -19,7 +15,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family:"Wellfleet";
    font-weight: normal;
    font-size: 40px;
    text-align: center;
@@ -29,7 +25,7 @@ h2 {
 }
 
 h3 {
-   font-family: Oswald;
+   font-family: "Oswald";
    font-weight: normal;
    font-size: 16px;
    text-align: center;
@@ -49,8 +45,6 @@ a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellflee
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
-/*= HEADER & NAVIGATION
---------------------------------------------------------*/
 
 #header { 
 	width: 100%; 
@@ -81,8 +75,6 @@ a.rpanel:hover{ color: #fff; }
 
 
 
-/*= QUOTES AND SOME ELEMENTS
---------------------------------------------------------*/
 .quotes {   
  font-family: 'Goudy Bookletter 1911', serif;
    font-weight: normal;
@@ -94,16 +86,11 @@ a.rpanel:hover{ color: #fff; }
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
  .quotes_container { width: 800px; margin: 0 auto; }
-#christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
 #ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
-#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -54px; left: -102px; }
-#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }
 
 
 
-/*= BUTTONS
---------------------------------------------------------*/
 
 button.btn-know { 
 	padding: 15px 47px; 
@@ -125,12 +112,10 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 
 
-/*= SLIDES STYLING
---------------------------------------------------------*/
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/slide1.jpg') 10% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	margin: 0;
@@ -148,11 +133,12 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/slide3.jpg) 10% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;	
-	background-size: cover;
+	background-size:  cover;
+    
 }
 
 #slide4{
@@ -163,7 +149,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/slide5.jpg) 10% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
 	padding: 250px 0;
@@ -171,7 +157,4 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
-
-/*= FOOTER 
---------------------------------------------------------*/
 
